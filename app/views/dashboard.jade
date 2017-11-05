@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 = title
+    p  Hi #{user.firstName}
+    p  Your Email ID is - #{user.emailId}
+    p  Your Mobile Number is - #{user.phoneNo}
+    p
+       a(href='http://localhost:2000/v1/users/logout') Logout

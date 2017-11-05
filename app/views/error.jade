@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 = title
+    p  Browser says - #{message}
+    p  Reason of error - #{error}
+    p
+       a(href='http://localhost:2000/v1/users/login/screen') Login
+    p
+       a(href='http://localhost:2000/v1/users/signup/screen') Signup
